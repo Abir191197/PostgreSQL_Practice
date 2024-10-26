@@ -1,0 +1,47 @@
+1. What is PostgreSQL?
+Answer:
+   - PostgreSQL is a powerful, open-source relational database management system (RDBMS) known for its advanced features, such as support for complex queries, reliability, and extensibility.
+
+2. What is the purpose of a database schema in PostgreSQL?
+Answer:
+   - A schema organizes tables, views, and other database objects logically, helping separate and manage data structures within a PostgreSQL database effectively.
+
+3. Explain the primary key and foreign key concepts in PostgreSQL.
+Answer:
+   - A primary key uniquely identifies each row in a table, while a foreign key links to a primary key in another table, creating relationships between tables.
+
+4. What is the difference between the VARCHAR and CHAR data types?
+Answer:
+   - `VARCHAR` is a variable-length character data type, storing only the entered text, while `CHAR` is fixed-length, padding any unused space with blanks.
+
+5. Explain the purpose of the WHERE clause in a SELECT statement.
+Answer:
+   - The `WHERE` clause filters records in a `SELECT` statement, allowing retrieval of rows that match specific conditions.
+
+6. What are the LIMIT and OFFSET clauses used for?
+Answer:
+   - `LIMIT` specifies the number of rows to return, and `OFFSET` skips a specified number of rows, useful for pagination.
+
+7. How can you perform data modification using UPDATE statements?
+Answer:
+   - The `UPDATE` statement changes existing data in a table by specifying columns to modify and setting new values, often with a `WHERE` clause to target specific rows.
+
+8. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
+Answer:
+   - `JOIN` combines rows from two or more tables based on related columns, allowing retrieval of data across tables.
+
+9. Explain the GROUP BY clause and its role in aggregation operations.
+Answer:
+   - `GROUP BY` groups rows that share values in specified columns, enabling aggregate functions like `SUM`, `COUNT`, and `AVG` to be applied to each group.
+
+10. How can you calculate aggregate functions like COUNT, SUM, and AVG in PostgreSQL?
+Answer:
+    - Use `COUNT` to tally rows, `SUM` for total values, and `AVG` to find averages in queries, often combined with `GROUP BY` for grouped data aggregation.
+
+11. What is the purpose of an index in PostgreSQL, and how does it optimize query performance?
+Answer:
+    - An index speeds up data retrieval by reducing search times on indexed columns, especially in large datasets.
+
+12. Explain the concept of a PostgreSQL view and how it differs from a table.
+Answer:
+    - A view is a virtual table created from a `SELECT` query, providing a specific perspective on data without storing it separately, unlike tables that store data physically.
